@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1971513117",
+    "hash" : "1539581638",
     "id" : "8ACBCD99",
-    "lastKnownWriteTime" : 1576122627,
-    "last_content_update" : 1576122627556,
+    "lastKnownWriteTime" : 1576123591,
+    "last_content_update" : 1576123591037,
     "path" : "~/Documents/personal/R-Ladies/2019-12-11_git/test2/test2.R",
     "project_path" : "test2.R",
     "properties" : {
-        "cursorPosition" : "0,25",
+        "cursorPosition" : "2,28",
         "scrollLine" : "0",
         "tempName" : "Untitled1"
     },

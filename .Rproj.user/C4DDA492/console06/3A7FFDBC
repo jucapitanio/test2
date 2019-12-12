@@ -1,3 +1,48 @@
 ]0;~/Documents/personal/R-Ladies/2019-12-11_git/test2[?1034hJCAPITANOs-MacBook-Pro:test2 jcapitanio$ [KJCAPITANOs-MacBook-Pro:test2 jcapitanio$ git init .
 Initialized empty Git repository in /Users/jcapitanio/Documents/personal/R-Ladies/2019-12-11_git/test2/.git/
 ]0;~/Documents/personal/R-Ladies/2019-12-11_git/test2JCAPITANOs-MacBook-Pro:test2 jcapitanio$ git add .
+]0;~/Documents/personal/R-Ladies/2019-12-11_git/test2JCAPITANOs-MacBook-Pro:test2 jcapitanio$ git remote add origin h ttps://github.com/jucapitanio/test2.git
+]0;~/Documents/personal/R-Ladies/2019-12-11_git/test2JCAPITANOs-MacBook-Pro:test2 jcapitanio$ git push -u origin mast er
+error: src refspec master does not match any
+[31merror: failed to push some refs to 'https://github.com/jucapitanio/test2.git'
+[m]0;~/Documents/personal/R-Ladies/2019-12-11_git/test2JCAPITANOs-MacBook-Pro:test2 jcapitanio$ git push -u origin masteer[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote add origin https://github.com/jucapitanio/test2.git
+fatal: remote origin already exists.
+]0;~/Documents/personal/R-Ladies/2019-12-11_git/test2JCAPITANOs-MacBook-Pro:test2 jcapitanio$ git commit =[K-m "creat [Ke f iles""[K
+[master (root-commit) dcc93d6] create files
+ Committer: Juliana Capitanio <jcapitanio@JCAPITANOs-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 12 files changed, 113 insertions(+)
+ create mode 100644 .Rproj.user/C4DDA492/console06/3A7FFDBC
+ create mode 100644 .Rproj.user/C4DDA492/console06/3A7FFDBC.env
+ create mode 100644 .Rproj.user/C4DDA492/console06/INDEX001
+ create mode 100644 .Rproj.user/C4DDA492/sources/prop/34779D52
+ create mode 100644 .Rproj.user/C4DDA492/sources/prop/INDEX
+ create mode 100644 .Rproj.user/C4DDA492/sources/s-5D3A2222/8ACBCD99
+ create mode 100644 .Rproj.user/C4DDA492/sources/s-5D3A2222/8ACBCD99-contents
+ create mode 100644 .Rproj.user/C4DDA492/sources/s-5D3A2222/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 test2.R
+ create mode 100644 test2.Rproj
+]0;~/Documents/personal/R-Ladies/2019-12-11_git/test2JCAPITANOs-MacBook-Pro:test2 jcapitanio$ git commit -m "create fiiles"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote add origin https://github.com/jucapitanio/test2.git[A[C[C[C[C[C[Ccommit -m "create files"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote add origin https://github.com/jucapitanio/test2.git[A[C[C[C[C[C[Cpush -u origin master[K
+Enumerating objects: 20, done.
+Counting objects:   5% (1/20)   Counting objects:  10% (2/20)   Counting objects:  15% (3/20)   Counting objects:  20% (4/20)   Counting objects:  25% (5/20)   Counting objects:  30% (6/20)   Counting objects:  35% (7/20)   Counting objects:  40% (8/20)   Counting objects:  45% (9/20)   Counting objects:  50% (10/20)   Counting objects:  55% (11/20)   Counting objects:  60% (12/20)   Counting objects:  65% (13/20)   Counting objects:  70% (14/20)   Counting objects:  75% (15/20)   Counting objects:  80% (16/20)   Counting objects:  85% (17/20)   Counting objects:  90% (18/20)   Counting objects:  95% (19/20)   Counting objects: 100% (20/20)   Counting objects: 100% (20/20), done.
+Delta compression using up to 8 threads
+Compressing objects:   5% (1/17)   Compressing objects:  11% (2/17)   Compressing objects:  17% (3/17)   Compressing objects:  23% (4/17)   Compressing objects:  29% (5/17)   Compressing objects:  35% (6/17)   Compressing objects:  41% (7/17)   Compressing objects:  47% (8/17)   Compressing objects:  52% (9/17)   Compressing objects:  58% (10/17)   Compressing objects:  64% (11/17)   Compressing objects:  70% (12/17)   Compressing objects:  76% (13/17)   Compressing objects:  82% (14/17)   Compressing objects:  88% (15/17)   Compressing objects:  94% (16/17)   Compressing objects: 100% (17/17)   Compressing objects: 100% (17/17), done.
+Writing objects:   5% (1/20)   Writing objects:  10% (2/20)   Writing objects:  15% (3/20)   Writing objects:  20% (4/20)   Writing objects:  25% (5/20)   Writing objects:  30% (6/20)   Writing objects:  35% (7/20)   Writing objects:  40% (8/20)   Writing objects:  45% (9/20)   Writing objects:  50% (10/20)   Writing objects:  55% (11/20)   Writing objects:  60% (12/20)   Writing objects:  65% (13/20)   Writing objects:  70% (14/20)   Writing objects:  75% (15/20)   Writing objects:  80% (16/20)   Writing objects:  85% (17/20)   Writing objects:  90% (18/20)   Writing objects:  95% (19/20)   Writing objects: 100% (20/20)   Writing objects: 100% (20/20), 3.34 KiB | 1.11 MiB/s, done.
+Total 20 (delta 0), reused 0 (delta 0)
+To https://github.com/jucapitanio/test2.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;~/Documents/personal/R-Ladies/2019-12-11_git/test2JCAPITANOs-MacBook-Pro:test2 jcapitanio$ git add .
